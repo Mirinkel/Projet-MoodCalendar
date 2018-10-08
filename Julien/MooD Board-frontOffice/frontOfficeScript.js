@@ -1,18 +1,12 @@
-function choix(element){
-document.location.href="MoodBaord.html";
 
-var emotion = document.querySelector(
-    '#emotion'
-  );
-  console.log(emotion); 
-}
     // element.style.visibility = "hidden";
 
-    var emotion = document.querySelector(
+   
+      
+      var emotion = document.querySelector(
         '#emotion'
       );
-      
-   
+      console.log(emotion); 
     console.log(emotion);
         //alert('clickme');
       switch (emotion) {
