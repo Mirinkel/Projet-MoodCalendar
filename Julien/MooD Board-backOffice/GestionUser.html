@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>User management</title>
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/backOffice.css" rel="stylesheet">
+  </head>
+
+  <body style="background-color:#00b8d8">
+    <div class="container-fluid">
+        <header class="row">
+                <div id="Logo" class="col-xs-offset-1 col-xs-3">
+                    <img id="mainImage" src="images/logo.png" alt="Logo Cat-Amania" >
+                    <H1 class="col-xs-offset-9 col-xs-3">Gestion utilisateur</H1>
+                    </div>
+                </header>
+
+<!-------------------------------------------------------------------------------->
+
+    </div>
+
+    <div class="container">
+            <table class="col-xs-12">
+                <tr>
+                    <th>Nom</th>
+                    <th>Prenom</th>
+                    <th>E-mail</th>
+                    <th>Agence</th>
+                    <th>Manager</th>
+                    <th>Login</th>
+                    <th>Password</th>
+                </tr>
+                <tr id="1" onclick="go(this)">
+                    <td>CELESTINE</td>
+                    <td>Julien</td>
+                    <td>Tours</td>
+                    <td>julien@gjsdllj.fr</td>
+                    <td>Fabien FAUVELET</td>
+                    <td>chowy</td>
+                    <td>ajfofodki</td>
+                    <td><div class="row">
+                        <section class="col-xs-2">
+                        Supprimer
+                        <button onclick="supprimer()">Supprimer</button>
+                        </section>
+                    </div></td>
+                </tr>
+            </table>
+            
+        </div>
+        
+<!-------------------------------------------------------------------------------->
+
+<div class="container-fluid">
+        <footer class="footer">
+                <div class="row">
+                    <div class="col-xs-4">
+                            Contact
+                        </div>
+                    <div class="col-xs-4">
+                        Mentions Légales
+                        </div>
+                    <div class="col-xs-4">
+                        FAQ
+                        </div>
+                    </div>
+            </footer>
+    <script src="frontOfficeScript.js"></script>
+    <script src="moodChoiceScript.js"></script>
+    </body>
+</html>
