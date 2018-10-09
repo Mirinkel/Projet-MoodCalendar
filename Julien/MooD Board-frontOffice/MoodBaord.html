@@ -4,8 +4,10 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Mood Board</title>
+        <link rel="stylesheet" media="screen, print, handheld" type="text/css" href="calendrier.css" />
         <link href="assets/css/bootstrap.css" rel="stylesheet">
         <link href="assets/css/frontOffice.css" rel="stylesheet">
+        <script type="text/javascript" src="CalendarScript.js"></script>
   </head>
     
 <body style="background-color:#00b8d8">
@@ -29,40 +31,12 @@
                     <img src="images/Très content.jpg" alt="Très content">
                 </div>
         </section>
-    </div>
+    </div>        
 
-    
-    <p><select name="nom" size="1">
-            <option>lundi</option>
-            <option>mardi</option>
-            <option>mercredi</option>
-            <option>jeudi</option>
-            <option>vendredi</option>
-            </select></p>
-          
-    <form>
-        <select multiple class=form-control size="1" name="nom">
-            <option value=un>Janvier</option>
-            <option value=deux>Février</option>
-            <option value=trois>Mars</option>
-            <option value=un>Avril</option>
-            <option value=deux>Mai</option>
-            <option value=trois>Juin</option>
-            <option value=un>Juillet</option>
-            <option value=deux>Aout</option>
-            <option value=trois>Septembre</option>
-            <option value=un>Octobre</option>
-            <option value=deux>Novembre</option>
-            <option value=trois>Decembre</option>
-        </select>
-    </form>
-        
-
-        <div class="container-fluid" style="background-color: brown">
-                <div class="col-xs-1" style="background-color: aqua" ali>Semaine 1</div>
-                <div class="col-xs-1" style="background-color: blueviolet" ali>Semaine 2</div>
-                <div class="col-xs-1" style="background-color: blue" ali>Semaine 3</div>
-                <div class="col-xs-1" style="background-color: grey" ali>Semaine 4</div>s
+        <div class="container-fluid" style="background-color: beige">
+            <script type="text/javascript">
+                calendrier();
+            </script>
         </div>
 
 <!-------------------------------------------------------------------------------->
@@ -81,6 +55,7 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="CalendarScript.js"></script>
     <script src="frontOfficeScript.js"></script>
     <script src="moodChoiceScript.js"></script>
   </body>
