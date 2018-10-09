@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jar pour connexion sql/mysql-connector-java-5.0.5-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/aopalliance-repackaged-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/hk2-api-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/hk2-locator-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/hk2-utils-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/jackson-core-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/jackson-jaxrs-1.9.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/jackson-mapper-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/jackson-xc-1.9.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/javax.inject-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/jersey-client-2.22.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/jersey-common-2.22.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/jersey-container-servlet-2.22.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/jersey-container-servlet-core-2.22.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/jersey-guava-2.22.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/jersey-media-jaxb-2.22.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/jersey-server-2.22.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/sqljdbc42.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/jerseyjars/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/asm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/asm-attrs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/c3p0-0.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/hibernate-entitymanager.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/hibernate-tools.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/javassist.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/jboss-archive-browsing.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/libraiirie hibernate(les jars)/jta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rhaissa.samailakoulo/Desktop/logiciel/librairiegson/gson-2.2.2.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
