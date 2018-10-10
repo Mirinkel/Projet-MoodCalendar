@@ -1,4 +1,4 @@
-.cal_calendrier
+.cal_calendrier,.cal_jours_av_ap,.cal_aujourdhui
 {
     border:1px solid black;
     padding:1px;
@@ -6,7 +6,6 @@
     width:250px;
     margin:auto;
     height:200px;
-    background-image:url('http://www.supportduweb.com/ftp/ybouane/scripts_astuces/javascript/calendrier/fond-250-200.gif');
 }
 .cal_calendrier th
 {

@@ -35,18 +35,21 @@ function calendrier()
     }
     dep_j = dep_j.getDay();
     document.write('<table class="cal_calendrier" onload="opacite(document.getElementById(\'cal_body\'),20);"><tbody id="cal_body"><tr><th colspan="7">'+date_aujourdui+'</th></tr>');
-    document.write('<tr class="cal_j_semaines"><th>Dim</th><th>Lun</th><th>Mar</th><th>Mer</th><th>Jeu</th><th>Ven</th><th>Sam</th></tr><tr>');
+    document.write('<table class="cal_j_semaines"><th>Dim</th><th>Lun</th><th>Mar</th><th>Mer</th><th>Jeu</th><th>Ven</th><th>Sam</th><th>Dim</th><th>Lun</th><th>Mar</th><th>Mer</th><th>Jeu</th><th>Ven</th><th>Sam</th><th>Dim</th><th>Lun</th><th>Mar</th><th>Mer</th><th>Jeu</th><th>Ven</th><th>Sam</th><th>Dim</th><th>Lun</th><th>Mar</th><th>Mer</th><th>Jeu</th><th>Ven</th><th>Sam</th></tr><table>');
     sem = 0;
     for(i=1;i<=dep_j;i++)
+    
+
     {
         document.write('<td class="cal_jours_av_ap">'+(jours_dans_moi[moi-1]-dep_j+i)+'</td>');
         sem++;
     }
-    for(i=1;i<=total;i++)
+   for(i=1;i<=total;i++)
     {
-        if(sem==0)
+       if(sem==0)
         {
-            document.write('<tr>');
+            document.write('<td>');
+            
         }
         if(jour==i)
         {
@@ -59,18 +62,19 @@ function calendrier()
         sem++;
         if(sem==7)
         {
-            document.write('</tr>');
+            document.write('</td>');
             sem=0;
         }
     }
-    for(i=1;sem!=0;i++)
+   for(i=1;sem!=0;i++)
     {
         document.write('<td class="cal_jours_av_ap">'+i+'</td>');
         sem++;
         if(sem==7)
         {
-            document.write('</tr>');
+            document.write('</td>');
             sem=0;
+           
         }
     }
     document.write('</tbody></table>');
